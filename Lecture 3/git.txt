@@ -1,0 +1,26 @@
+Setup the online git repository
+
+command for save the repository online : 
+
+1: Create the a repository on github 
+
+2: intialize the github repository
+    command : git init
+
+3: add files on to local git
+    command : git add {filename} or git add .
+
+4: check the status of git
+    command : git status
+
+5: commit the message 
+    command : git commit -m "Intial commit"
+
+6: create a branch
+    command : git branch -M main
+
+7: add the remote origin url 
+    command : git remote add origin {remote url}
+
+8: push the local .git to github repository
+    command : git push -u origin main
