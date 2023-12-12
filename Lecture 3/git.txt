@@ -24,3 +24,15 @@ command for save the repository online :
 
 8: push the local .git to github repository
     command : git push -u origin main
+
+
+After creating the repo how to add code to github
+
+1: add code files to local git
+    command : git add .
+
+2: commit the message
+    command : git commit -m "{msg}"
+
+3: push the code to github repo
+    command : git push -u origin main
